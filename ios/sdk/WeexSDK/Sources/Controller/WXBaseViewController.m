@@ -32,7 +32,7 @@
 @property (nonatomic, strong) WXSDKInstance *instance;
 @property (nonatomic, strong) UIView *weexView;
 @property (nonatomic, strong) NSURL *sourceURL;
-
+@property (nonatomic, copy) NSString *sourceParams;
 @end
 
 @implementation WXBaseViewController

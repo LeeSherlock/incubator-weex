@@ -66,7 +66,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  @abstract The component's identifier string.
  */
 @property (nonatomic, readonly, strong) NSString *ref;
-
+@property (nonatomic, readonly, strong) NSString *ref2;
 /**
  *  @abstract The component's type string.
  */

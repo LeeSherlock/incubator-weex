@@ -43,4 +43,6 @@
  */
 - (void)refreshWeex;
 
+- (void)receiveParams:(NSString *)params;
+
 @end
